@@ -3,7 +3,8 @@ import Program from './lib/program';
 import BaseBuffer from './lib/buffer';
 import Renderer from './lib/renderer';
 import QuadIndexBuffer from './lib/buffer/quad_index_buffer';
-import {Extension} from "./lib/extensions";
+import {Extension} from './lib/extensions';
+import {PrimitiveType} from './lib/primitives';
 
 export {
     Shader,
@@ -11,5 +12,6 @@ export {
     Renderer,
     Extension,
     BaseBuffer,
-    QuadIndexBuffer
+    QuadIndexBuffer,
+    PrimitiveType
 };
