@@ -4,7 +4,7 @@ import BaseBuffer from './lib/buffer';
 import Renderer from './lib/renderer';
 import QuadIndexBuffer from './lib/buffer/quad_index_buffer';
 import {Extension} from './lib/extensions';
-import {PrimitiveType} from './lib/primitives';
+import {PrimitiveType, CullMode} from './lib/primitives';
 
 export {
     Shader,
@@ -13,5 +13,6 @@ export {
     Extension,
     BaseBuffer,
     QuadIndexBuffer,
-    PrimitiveType
+    PrimitiveType,
+    CullMode
 };
