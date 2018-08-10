@@ -1,11 +1,11 @@
 {
   "name": "@nfactorial/webgl_helper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Miscellaneous code to aid with WebGL development.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ./lib/**/*.js > lint.txt"
+    "lint": "eslint ./lib/**/*.js"
   },
   "author": "nfactorial",
   "license": "ISC",
