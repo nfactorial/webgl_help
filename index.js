@@ -3,6 +3,7 @@ import Program from './lib/program';
 import BaseBuffer from './lib/buffer';
 import Renderer from './lib/renderer';
 import Extension from './lib/extensions';
+import AttributeType from './lib/attributes/type';
 import ArrayBuffer from './lib/buffer/array_buffer';
 import QuadIndexBuffer from './lib/buffer/quad_index_buffer';
 import ElementArrayBuffer from './lib/buffer/element_array_buffer';
@@ -15,6 +16,7 @@ export {
     Extension,
     BaseBuffer,
     ArrayBuffer,
+    AttributeType,
     ElementArrayBuffer,
     QuadIndexBuffer,
     PrimitiveType,
