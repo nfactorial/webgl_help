@@ -1,6 +1,6 @@
 {
   "name": "@nfactorial/webgl_helper",
-  "version": "0.0.28",
+  "version": "0.0.29",
   "description": "Miscellaneous code to aid with WebGL development.",
   "main": "index.js",
   "scripts": {
