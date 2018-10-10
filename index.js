@@ -9,6 +9,7 @@ import Texture2D from './lib/texture/texture_2d';
 import AttributeType from './lib/attributes/type';
 import ArrayBuffer from './lib/buffer/array_buffer';
 import { InvalidFrameBufferId } from './lib/frame_buffer';
+import GeometryBuffer from './lib/buffer/geometry_buffer';
 import QuadIndexBuffer from './lib/buffer/quad_index_buffer';
 import ElementArrayBuffer from './lib/buffer/element_array_buffer';
 import { PrimitiveType, CullMode, DepthCompare } from './lib/primitives';
@@ -24,6 +25,7 @@ export {
     ArrayBuffer,
     FrameBuffer,
     AttributeType,
+    GeometryBuffer,
     ElementArrayBuffer,
     InvalidFrameBufferId,
     QuadIndexBuffer,
